@@ -2,13 +2,10 @@
 
 int main()
 {
-    ClapTrap a("oussama");
-
-    a.attack("Enemy");
-    a.takeDamage(5);
-    a.beRepaired(3);
-    a.takeDamage(20);
-    a.attack("Enemy");
+    ClapTrap c("oussama");
+    c.attack("Enemy");
+    c.takeDamage(5);
+    c.beRepaired(3);
 
     return 0;
 }
